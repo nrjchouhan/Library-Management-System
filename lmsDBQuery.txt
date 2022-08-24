@@ -1,0 +1,12 @@
+##create database library;
+
+##create table books
+
+>create table books(bid int primary key not null, name varchar (20), author varchar(20));
+#Insert into books values (1,'Let Us C','Yashwant kanetkar');
+#Insert into books values (2,'Let Us C++','Yashwant kanetkar');
+#Insert into books values (3,'Wings Of Fire','A.P.J Abdul Kalam');
+
+##create table user
+
+>create table user(uname varchar (20), password varchar (20), bissued varchar (20), dissue date, mobno int, emailid varchar (25), address varchar (25), doj date);
